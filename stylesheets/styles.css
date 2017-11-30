@@ -1,0 +1,246 @@
+body{
+	background: url("../images/horizon.jpg") no-repeat center center fixed;
+	/*image sources:  
+	http://pre01.deviantart.net/34c7/th/pre/f/2012/081/0/f/it__s_like_earth____but_not__1080p_wallpaper__by_markydman-d4tleft.png 
+	https://www.google.com/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&uact=8&ved=0ahUKEwjwqueCkufXAhVJz1QKHQ4FDVkQjRwIBw&url=http%3A%2F%2Fbhdwallpapersplus.blogspot.ru%2F2015%2F12%2F1080-wallpaper.html&psig=AOvVaw0umpK__WHmEm-Kpg2Ft6JO&ust=1512160239380338
+	*/
+	background-size:  cover;
+	font-family:  "Myriad Web Pro";
+	color:  #e0ebeb;
+}
+
+input{
+	font-family:  "Myriad Web Pro";
+	font-size:  15px;
+	width:  199px;
+	background-color:  #e0ebeb;
+	color:  #1e2f2f;
+	border:  1px solid #507c7c;
+}
+
+select{
+	font-family:  "Myriad Web Pro";
+	font-size:  15px;
+	background-color:  #e0ebeb;
+	color:  #1e2f2f;
+	border:  1px solid #507c7c;
+}
+
+a{
+	color:  #92b9b9;
+}
+
+.bold{
+	font-weight:  bold;
+}
+
+.wrap{
+	word-wrap:  break-word;
+}
+
+.colorLight{
+	color:  #e0ebeb;
+}
+
+.highlight:hover{
+	color:  #507c7c;
+}
+
+.right{
+	text-align:  right;
+	padding-right:  5px;
+}
+
+.left{
+	text-align:  left;
+	padding-left:  5px;
+}
+
+.center{
+	text-align:  center;
+}
+
+.floatLeft{
+	float:  left;
+}
+
+.button, .buttonLink, .buttonLinkWide{
+	background-color:  #b1cdcd;
+	padding:  5px;
+	width:  180px;
+	border:  1px solid #639c9c;
+	color:  #1e2f2f;
+	font-size:  17px;
+	margin-top:  5px;
+}
+
+.buttonLink, .buttonLinkWide{
+	text-decoration:  none;
+}
+
+.buttonLinkWide{
+	width:  225px;
+}
+
+.button:hover, .buttonLink:hover, .accountsButton:hover, .buttonLinkWide:hover{
+	background-color:  #1e2f2f;
+	color:  #b1cdcd;
+	cursor:  pointer;
+}
+
+.error{
+	text-align: center;
+	margin:  auto;
+	width:  700px;
+	max-width:  80%;
+	padding: 5px 0px;
+	background-color:  rgba(193, 215, 215, 0.8);
+	color:  #1e2f2f;
+	
+}
+
+.titleFadeIn, .newProfileFade, .loginFade, .fadeIn, .fadeTimer, .message1, .message2{
+	display:  none;
+}
+
+
+.title, .titleLogin, .message1, .message2{
+	font-size:  50px;
+	text-align:  center;
+	margin-top:  20px;
+}
+
+.greetings{
+	font-size:  20px;
+	font-weight:  bold;
+}
+
+.message1, .message2{
+	margin:  auto;
+	width:  800px;
+}
+
+.login{
+	text-align:  center;
+}
+
+#loginText{
+	font-size:  30px;
+	margin-top:  10px;
+}
+
+.loginForm, .form, .formReview{
+	margin:  auto;
+	padding:  5px 15px;
+	margin-top:  20px;
+	text-align:  center;
+	font-size:  18px;
+}
+
+.formReview{
+	border:  1px solid #639c9c;
+	background-color:  rgba(193, 215, 215, 0.8);
+	color:  #1e2f2f;
+}
+
+
+.newProfile{
+	text-align:  center;
+	margin-top:  10px;
+	
+}
+
+.instructions{
+	text-align:  center;
+	color:  #e0ebeb;
+	width:  500px;
+	margin:  auto;
+	font-size:  17px;
+	margin-bottom:  15px;
+}
+
+.options{
+	text-align:  center;
+}
+
+.block{
+	display:  inline-block;
+}
+
+.phone{
+	width:  40px;
+}
+
+.accounts, .transactions, .transactionsBlock{
+	text-align:  center;
+	margin:  0 5px;
+	width:  40%;
+}
+
+.accountsButton{
+	border:  1px solid #639c9c;
+	width:  100%;
+	height:  100px;
+	padding:  10px;
+	background-color:  rgba(193, 215, 215, 0.8);
+	color:  #1e2f2f;
+	font:  16px "Myriad Web Pro";
+}
+
+.transactions{
+	margin:  auto;
+	padding:  10px;
+	width:  475px;
+	color:  #1e2f2f;
+}
+
+.transactionsBlock{
+	margin:  auto;
+	border:  1px solid #639c9c;
+	width:  475px;
+	background-color:  rgba(193, 215, 215, 0.8);
+}
+
+.navigation{
+	text-align:  center;
+	position:  sticky;
+}
+
+.nav{
+	border:  1px solid black;
+	background-color:  rgba(146, 185, 185, 0.7);
+	color:  #1e2f2f;
+	display:  inline-block;
+	font-size:  19px;
+	min-width:  189px;
+	height:  40px;
+	text-align:  center;
+	padding:  15px 5px 0px 5px;
+	margin-left:  2.5px;
+	margin-right: 2.5px;
+	text-decoration: none;
+}
+
+.nav:hover{
+	background-color:  #e0ebeb;
+	color:  #1e2f2f;
+}
+
+.page{
+	color:  #1e2f2f;
+	margin:  auto;	
+	width:  807px;
+	padding:  10px;
+	margin-top:  10px;
+}
+
+.warning{
+	border-bottom:  1px solid white;
+	margin:  auto;
+	width:  400px;
+	padding-bottom:  5px;
+}
+
+.body{
+	padding:  5px;
+}
