@@ -3,7 +3,8 @@
 const DS = DIRECTORY_SEPARATOR;
 
 //Site Root
-const SITE_ROOT = 'C:'.DS.'xampp'.DS.'htdocs'.DS.'sites'.DS.'bank_of_earth';
+//Complete the '...' with your own file path
+const SITE_ROOT = '...'.DS.'bank_of_earth';
 
 //Classes Root
 const CLASS_ROOT = 'models'.DS.'classes';

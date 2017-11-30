@@ -1,8 +1,9 @@
 <?php
 //Define database constants
+//Complete the '...' with your own user and password
 const DB_HOST = 'localhost';
-const DB_USER = 'earthling';
-const DB_PASS = 'thirdRock~9';
+const DB_USER = '...';
+const DB_PASS = '...';
 const DB_NAME = 'bank_of_earth';
 
 //Database class
